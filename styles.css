@@ -106,6 +106,43 @@ a {
   box-shadow: none;
 }
 
+.app-store-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 56px;
+  padding: 6px 14px 7px 11px;
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  border-radius: 8px;
+  background: #050505;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 14px 30px rgba(9, 34, 58, 0.2);
+}
+
+.app-store-badge svg {
+  width: 27px;
+  height: 31px;
+  fill: currentColor;
+  flex: 0 0 auto;
+}
+
+.app-store-badge span {
+  display: grid;
+  gap: 0;
+  font-size: 1.33rem;
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: 0;
+}
+
+.app-store-badge small {
+  display: block;
+  font-size: 0.54rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
 .hero {
   overflow: hidden;
   position: relative;
