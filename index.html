@@ -1,173 +1,258 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StampManage Identifier - AI Stamp Identification for iPhone and iPad</title>
-
-    <meta property="og:title" content="StampManage Identifier - AI Stamp Identification. For iPhone and iPad"/>
-    <meta property="og:description" content="StampManage Identifier uses AI to identify your stamps from photos, giving you instant access to catalog numbers, values, and collection details."/>
-    <meta property="og:image" content="https://stampmanageidentifier.app/StampManageIdentifier-Main.png"/>
-    <meta property="og:url" content="https://stampmanageidentifier.app/"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="StampManage Identifier"/>
-
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:site" content="@LibertyStreetSoft"/>
-    <meta name="twitter:title" content="StampManage Identifier - AI Stamp Identification"/>
-    <meta name="twitter:description" content="Instantly identify stamps using AI and manage your collection on your iPhone or iPad."/>
-    <meta name="twitter:image" content="https://stampmanageidentifier.app/StampManageIdentifier-Main.png"/>
-    <link rel="canonical" href="https://stampmanageidentifier.app/" />
-
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "StampManage Identifier",
-  "applicationCategory": "UtilitiesApplication",
-  "operatingSystem": "iOS",
-  "url": "https://stampmanageidentifier.app/",
-  "screenshot": "https://stampmanageidentifier.app/StampManageIdentifier-Main.png",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Liberty Street Software",
-    "url": "https://www.libertystreet.com/"
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stamp Identifier App for iPhone | StampManage Identifier</title>
+  <meta name="description" content="Scan, identify, value, organize, and report on postage stamps with StampManage Identifier, an iPhone stamp identifier and collection tracker for collectors.">
+  <link rel="canonical" href="https://stampmanageidentifier.app/">
+  <meta property="og:title" content="StampManage Identifier - Stamp Identifier App for iPhone">
+  <meta property="og:description" content="Identify, value, and organize stamps from your iPhone. Built for collectors, inherited collections, and philatelic research.">
+  <meta property="og:image" content="assets/app-icon.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "StampManage Identifier",
+    "applicationCategory": "ProductivityApplication",
+    "operatingSystem": "iOS",
+    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+    "downloadUrl": "https://apps.apple.com/us/app/stampmanage-identifier/id6780072883",
+    "description": "An iPhone app for stamp identification, value lookup, grading notes, bulk stamp ID, collection tracking, and reports."
   }
-}
-</script>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f7f9fc;
-        }
-    </style>
+  </script>
 </head>
-<body class="bg-gray-50 flex flex-col min-h-screen text-gray-800">
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="#">
+        <img src="assets/app-icon.jpg" alt="StampManage Identifier app icon">
+        <span>StampManage Identifier</span>
+      </a>
+      <div class="nav-links">
+        <a href="#screenshots">Screenshots</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#guides">Guides</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <a class="app-store" href="https://apps.apple.com/us/app/stampmanage-identifier/id6780072883">Download</a>
+    </nav>
+  </header>
 
-    <header class="bg-white shadow-sm py-4 sticky top-0 z-50">
-        <div class="container mx-auto px-4 flex justify-between items-center">
-            <a href="index.html" class="text-2xl md:text-3xl font-bold text-indigo-600">StampManage Identifier</a>
-            <nav>
-                <a href="privacy.html" class="text-sm md:text-base font-medium text-gray-600 hover:text-indigo-600 transition-colors">Privacy</a>
-                <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" class="text-sm md:text-base font-medium text-gray-600 hover:text-indigo-600 transition-colors ml-4">Terms of Use</a>
-            </nav>
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <h1>Identify, value, and organize every stamp from your iPhone.</h1>
+          <p>StampManage Identifier helps collectors scan unknown postage stamps, review rarity and condition details, build a searchable catalog, process batches, and export clean reports.</p>
+          <div class="hero-actions">
+            <a class="button" href="https://apps.apple.com/us/app/stampmanage-identifier/id6780072883">Download on the App Store</a>
+            <a class="button secondary" href="#how-it-works">See how it works</a>
+          </div>
+          <div class="facts" aria-label="App facts">
+            <span>Free with in-app purchases</span>
+            <span>iPhone, iOS 17+</span>
+            <span>Productivity + Education</span>
+          </div>
         </div>
-    </header>
-
-    <main class="flex-grow">
-        <section class="py-16 md:py-24 bg-gradient-to-br from-indigo-500 to-purple-600 text-white flex flex-col items-center justify-center text-center px-4">
-            <div class="container mx-auto">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">Your Stamps, Identified Instantly.</h1>
-                <img id="mainImage" src="https://stampmanageidentifier.app/StampManageIdentifier-Main.png" alt="Main interface of StampManage Identifier app" class="w-[40%] mx-auto my-8 md:my-10 rounded-lg shadow-2xl cursor-pointer hover:scale-105 transition-transform" />
-                <div class="flex justify-center">
-                    <p class="text-base md:text-lg lg:text-xl font-light mb-8 max-w-2xl text-left leading-relaxed">
-                        StampManage Identifier: The ultimate tool for stamp collectors on the go.<br><br>
-                        Designed for iPhone&trade; and iPad&trade;, StampManage Identifier uses advanced AI to identify stamps from photos, giving you instant access to current values, suggested topics and full collection details.<br><br>
-                        Seamlessly connected to your StampManage database, so your entire collection is always at your fingertips.
-                    </p>
-                </div>
-
-                <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-                    <a href="https://apps.apple.com/app/stampmanage-identifier/id6780072883" style="display: inline-block;">
-                        <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us" alt="Download on the App Store" style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <div id="fullSizeOverlay" class="fixed inset-0 bg-black bg-opacity-75 z-50 flex justify-center items-center p-4 hidden">
-            <img id="fullSizeImage" src="StampManageIdentifier-Main.png" alt="Main interface of StampManage Identifier app full size" class="max-w-full max-h-full rounded-lg shadow-xl cursor-zoom-out" />
+        <div class="phone-cluster" aria-label="StampManage Identifier screenshots">
+          <img class="phone left" src="assets/screenshot-01-01-browse.jpg" alt="Catalog every stamp by country, category, and topic">
+          <img class="phone main" src="assets/screenshot-02-02-details.jpg" alt="Review stamp details including country, year, color, and rarity">
+          <img class="phone right" src="assets/screenshot-03-03-bulkid.jpg" alt="Bulk stamp identification workflow">
         </div>
+      </div>
+    </section>
 
-        <section class="py-16 md:py-24 bg-white">
-            <div class="container mx-auto px-4 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Identify. Catalog. Collect.</h2>
-                <p class="text-gray-600 mb-12 max-w-3xl mx-auto">
-                    StampManage Identifier puts the power of a complete philatelic reference in your pocket.
-                </p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
-
-                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                        </svg>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">AI Stamp Identification</h3>
-                        <p class="text-gray-600">Photograph any stamp and let our AI instantly identify it, returning catalog numbers and detailed information.</p>
-                    </div>
-
-                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-                        </svg>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Bulk Stamp ID</h3>
-                        <p class="text-gray-600">Identify multiple stamps in batch mode.  Simply select from photos of your stamps.</p>
-                    </div>
-
-                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
-                        </svg>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Collection Management</h3>
-                        <p class="text-gray-600">Track what you own, what you need, and what you have for sale — all synced with your StampManage database.</p>
-                    </div>
-
-                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-                        </svg>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Valuation &amp; Reporting</h3>
-                        <p class="text-gray-600">View up-to-date stamp values and generate comprehensive collection reports for insurance or resale purposes.</p>
-                    </div>
-
-                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                        </svg>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Advanced Search</h3>
-                        <p class="text-gray-600">Search by country, year, topic, color, watermark, and more to find any stamp in seconds.</p>
-                    </div>
-
-                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
-                        </svg>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Great for Topical Stamp Collectors</h3>
-                        <p class="text-gray-600">Automatically assigns up to 3 topics to identified stamps.</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-white py-8 text-center text-sm text-gray-500">
-        <div class="container mx-auto px-4">
-            <p>&copy; 2026 Liberty Street Software. All rights reserved.</p>
-            <p class="mt-2">
-                <a href="privacy.html" class="hover:text-indigo-600 transition-colors">Privacy Policy</a> |
-                <a href="terms-of-use.html" class="hover:text-indigo-600 transition-colors ml-1">Terms of Use</a>
-            </p>
+    <section class="section" id="download">
+      <div class="section-inner">
+        <div class="download-band">
+          <img src="assets/app-icon.jpg" alt="">
+          <div>
+            <h2>Turn a stamp photo into organized collector data.</h2>
+            <p>Scan or search, save the match, add value and condition notes, then keep building your digital stamp inventory.</p>
+          </div>
+          <a class="button" href="https://apps.apple.com/us/app/stampmanage-identifier/id6780072883">Get the app</a>
         </div>
-    </footer>
+      </div>
+    </section>
 
-    <script>
-        const mainImage = document.getElementById('mainImage');
-        const fullSizeOverlay = document.getElementById('fullSizeOverlay');
+    <section class="section alt" id="screenshots">
+      <div class="section-inner">
+        <div class="section-head">
+          <h2>Built for the way collectors actually sort stamps.</h2>
+          <p>Browse by country, inspect details, identify batches, organize by topic, and export collection-ready summaries.</p>
+        </div>
+        <div class="screens">
+          <figure>
+            <img src="assets/screenshot-01-01-browse.jpg" alt="Browse stamp collection screenshot">
+            <figcaption>Catalog every stamp</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshot-02-02-details.jpg" alt="Stamp details screenshot">
+            <figcaption>Review stamp details</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshot-03-03-bulkid.jpg" alt="Bulk stamp ID screenshot">
+            <figcaption>Identify batches faster</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshot-04-04-topics.jpg" alt="Organize stamps by topic screenshot">
+            <figcaption>Organize by topic</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshot-05-05-reports.jpg" alt="Stamp report export screenshot">
+            <figcaption>Export clean reports</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
 
-        mainImage.addEventListener('click', () => {
-            fullSizeOverlay.classList.remove('hidden');
-        });
+    <section class="section" id="how-it-works">
+      <div class="section-inner">
+        <div class="section-head">
+          <h2>From mystery stamp to managed collection.</h2>
+          <p>Use StampManage Identifier when you find a loose stamp, inherit a box, or want a cleaner way to maintain a serious collection.</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <strong>Scan or search</strong>
+            <p>Start with a stamp image or a collector query when you need fast identification.</p>
+          </div>
+          <div class="step">
+            <strong>Review value clues</strong>
+            <p>Check estimated value ranges, rarity signals, year, country, denomination, and category.</p>
+          </div>
+          <div class="step">
+            <strong>Save the record</strong>
+            <p>Build a digital stamp catalog with country, topic, condition, notes, and custom organization.</p>
+          </div>
+          <div class="step">
+            <strong>Export reports</strong>
+            <p>Create collector-ready summaries to print, share, or use while reviewing your inventory.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        fullSizeOverlay.addEventListener('click', () => {
-            fullSizeOverlay.classList.add('hidden');
-        });
-    </script>
+    <section class="section alt" id="guides">
+      <div class="section-inner">
+        <div class="section-head">
+          <h2>Guides for common stamp collecting questions.</h2>
+          <p>Each guide answers a focused search question, then shows where StampManage Identifier fits into the workflow.</p>
+        </div>
+        <div class="guide-grid">
+          <div class="guide-card">
+            <strong>Stamp identifier app</strong>
+            <p>How to identify an unknown stamp from a photo and save the result.</p>
+            <a href="guides/stamp-identifier-app.html">Learn More</a>
+          </div>
+          <div class="guide-card">
+            <strong>Postage stamp value lookup</strong>
+            <p>How collectors estimate value before deciding what to research next.</p>
+            <a href="guides/postage-stamp-value-lookup.html">Learn More</a>
+          </div>
+          <div class="guide-card">
+            <strong>Rare stamp identification</strong>
+            <p>How to spot the details that may make a stamp more interesting.</p>
+            <a href="guides/rare-stamp-identification.html">Learn More</a>
+          </div>
+          <div class="guide-card">
+            <strong>Stamp collection tracker</strong>
+            <p>How to replace scattered notes with a searchable mobile catalog.</p>
+            <a href="guides/stamp-collection-tracker.html">Learn More</a>
+          </div>
+          <div class="guide-card">
+            <strong>Bulk stamp identification</strong>
+            <p>How to work through inherited albums, duplicates, and mixed lots faster.</p>
+            <a href="guides/bulk-stamp-identification.html">Learn More</a>
+          </div>
+          <div class="guide-card">
+            <strong>Stamp grading app</strong>
+            <p>How condition notes help keep identification and value research grounded.</p>
+            <a href="guides/stamp-grading-app.html">Learn More</a>
+          </div>
+          <div class="guide-card">
+            <strong>Philatelic catalog app</strong>
+            <p>How to organize by country, era, topic, denomination, and custom fields.</p>
+            <a href="guides/philatelic-catalog-app.html">Learn More</a>
+          </div>
+          <div class="guide-card">
+            <strong>Stamp report generator</strong>
+            <p>How exportable summaries help with review, sharing, and printing.</p>
+            <a href="guides/stamp-report-generator.html">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="section">
+      <div class="section-inner">
+        <div class="quote-band">
+          <p>Useful for the first stamp in a shoebox and the thousandth stamp in a catalog.</p>
+          <ul>
+            <li>Identify US, UK, and worldwide postage issues</li>
+            <li>Track country, era, topic, denomination, and notes</li>
+            <li>Use reports when reviewing or sharing a collection</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="faq">
+      <div class="section-inner">
+        <div class="section-head">
+          <h2>Stamp identifier FAQ.</h2>
+          <p>Short answers for the searches collectors make before downloading.</p>
+        </div>
+        <div class="faq-grid">
+          <div class="faq-card">
+            <strong>What is the best way to identify an unknown stamp?</strong>
+            <p>Start with a clear image, compare country and denomination details, then save the likely match with notes.</p>
+            <a href="guides/stamp-identifier-app.html">Learn More</a>
+          </div>
+          <div class="faq-card">
+            <strong>Can an app help find stamp value?</strong>
+            <p>A stamp value app can organize estimated value ranges and clues, but rare items still deserve expert review.</p>
+            <a href="guides/postage-stamp-value-lookup.html">Learn More</a>
+          </div>
+          <div class="faq-card">
+            <strong>How do I know if a stamp is rare?</strong>
+            <p>Rarity depends on issue, variety, condition, cancellation, demand, and historical details.</p>
+            <a href="guides/rare-stamp-identification.html">Learn More</a>
+          </div>
+          <div class="faq-card">
+            <strong>How should I organize a stamp collection?</strong>
+            <p>Most collectors start with country and era, then add category, topic, condition, value, and notes.</p>
+            <a href="guides/stamp-collection-tracker.html">Learn More</a>
+          </div>
+          <div class="faq-card">
+            <strong>Can I identify multiple stamps at once?</strong>
+            <p>Bulk ID helps process several stamps and add identified items into inventory more quickly.</p>
+            <a href="guides/bulk-stamp-identification.html">Learn More</a>
+          </div>
+          <div class="faq-card">
+            <strong>Can I export my stamp collection?</strong>
+            <p>Reports make it easier to print, share, and review summaries by country, category, and other fields.</p>
+            <a href="guides/stamp-report-generator.html">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <strong>StampManage Identifier</strong>
+        <div>Scan & Identify Stamps for iPhone.</div>
+      </div>
+      <div>
+        <a href="https://apps.apple.com/us/app/stampmanage-identifier/id6780072883">App Store</a>
+        &nbsp; · &nbsp;
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple EULA</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
