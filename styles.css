@@ -108,39 +108,22 @@ a {
 
 .app-store-badge {
   display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  min-height: 56px;
-  padding: 6px 14px 7px 11px;
-  border: 1px solid rgba(255, 255, 255, 0.78);
-  border-radius: 8px;
-  background: #050505;
-  color: #fff;
+  line-height: 0;
   text-decoration: none;
   box-shadow: 0 14px 30px rgba(9, 34, 58, 0.2);
 }
 
-.app-store-badge svg {
-  width: 27px;
-  height: 31px;
-  fill: currentColor;
-  flex: 0 0 auto;
+.app-store-badge img {
+  width: 164px;
+  height: auto;
 }
 
-.app-store-badge span {
-  display: grid;
-  gap: 0;
-  font-size: 1.33rem;
-  font-weight: 800;
-  line-height: 0.95;
-  letter-spacing: 0;
+.app-store-badge.nav-badge {
+  box-shadow: none;
 }
 
-.app-store-badge small {
-  display: block;
-  font-size: 0.54rem;
-  font-weight: 700;
-  line-height: 1.1;
+.app-store-badge.nav-badge img {
+  width: 132px;
 }
 
 .hero {
@@ -352,23 +335,23 @@ a {
 }
 
 .workflow-head {
-  margin-bottom: 22px;
+  margin-bottom: 34px;
   text-align: center;
 }
 
 .workflow-head h2 {
   margin: 0;
-  font-size: clamp(1.3rem, 2vw, 1.65rem);
+  font-size: clamp(2.1rem, 3.2vw, 3rem);
   line-height: 1;
   letter-spacing: 0;
 }
 
 .steps {
   display: grid;
-  grid-template-columns: minmax(92px, 1fr) 34px minmax(92px, 1fr) 34px minmax(92px, 1fr) 34px minmax(92px, 1fr);
+  grid-template-columns: minmax(150px, 1fr) 56px minmax(150px, 1fr) 56px minmax(150px, 1fr) 56px minmax(150px, 1fr);
   align-items: start;
-  gap: 10px;
-  max-width: 760px;
+  gap: 18px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -380,9 +363,9 @@ a {
 }
 
 .step-icon {
-  width: 72px;
-  height: 72px;
-  margin: 0 auto 10px;
+  width: 112px;
+  height: 112px;
+  margin: 0 auto 18px;
   display: grid;
   place-items: center;
   border-radius: 50%;
@@ -391,8 +374,8 @@ a {
 }
 
 .step-icon svg {
-  width: 34px;
-  height: 34px;
+  width: 52px;
+  height: 52px;
   fill: none;
   stroke: var(--ink);
   stroke-width: 3.25;
@@ -404,38 +387,38 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
-  margin-bottom: 5px;
+  gap: 8px;
+  margin-bottom: 9px;
   color: var(--ink);
-  font-size: 0.86rem;
+  font-size: 1.25rem;
   font-weight: 850;
 }
 
 .step strong span {
-  width: 18px;
-  height: 18px;
+  width: 26px;
+  height: 26px;
   display: inline-grid;
   place-items: center;
   border-radius: 50%;
   background: #2c83d4;
   color: #fff;
-  font-size: 0.66rem;
+  font-size: 0.88rem;
   font-weight: 900;
   line-height: 1;
 }
 
 .step p {
-  max-width: 118px;
+  max-width: 190px;
   margin: 0 auto;
   color: var(--ink);
-  font-size: 0.66rem;
-  line-height: 1.28;
+  font-size: 0.98rem;
+  line-height: 1.35;
 }
 
 .step-arrow {
-  padding-top: 24px;
+  padding-top: 44px;
   color: #2c83d4;
-  font-size: 1.05rem;
+  font-size: 1.45rem;
   line-height: 1;
   text-align: center;
 }
@@ -551,8 +534,8 @@ a {
   }
 
   .steps {
-    grid-template-columns: minmax(92px, 1fr) 24px minmax(92px, 1fr) 24px minmax(92px, 1fr) 24px minmax(92px, 1fr);
-    gap: 6px;
+    grid-template-columns: minmax(132px, 1fr) 34px minmax(132px, 1fr) 34px minmax(132px, 1fr) 34px minmax(132px, 1fr);
+    gap: 10px;
     overflow-x: auto;
     padding-bottom: 8px;
   }
@@ -594,36 +577,36 @@ a {
   }
 
   .steps {
-    grid-template-columns: minmax(82px, 1fr) 18px minmax(82px, 1fr) 18px minmax(82px, 1fr) 18px minmax(82px, 1fr);
+    grid-template-columns: minmax(112px, 1fr) 22px minmax(112px, 1fr) 22px minmax(112px, 1fr) 22px minmax(112px, 1fr);
   }
 
   .step-icon {
-    width: 58px;
-    height: 58px;
+    width: 84px;
+    height: 84px;
   }
 
   .step-icon svg {
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
   }
 
   .step strong {
-    font-size: 0.72rem;
+    font-size: 0.94rem;
   }
 
   .step strong span {
-    width: 16px;
-    height: 16px;
-    font-size: 0.58rem;
+    width: 21px;
+    height: 21px;
+    font-size: 0.7rem;
   }
 
   .step p {
-    max-width: 88px;
-    font-size: 0.56rem;
+    max-width: 118px;
+    font-size: 0.72rem;
   }
 
   .step-arrow {
-    padding-top: 20px;
-    font-size: 0.9rem;
+    padding-top: 31px;
+    font-size: 1rem;
   }
 }
