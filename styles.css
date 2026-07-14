@@ -255,18 +255,12 @@ a {
 .qr-download {
   display: grid;
   justify-items: center;
-  gap: 20px;
+  gap: 12px;
   padding: 34px 28px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: #fff;
   box-shadow: 0 18px 50px rgba(9, 34, 58, 0.08);
-}
-
-.qr-download h2 {
-  margin: 0;
-  text-align: center;
-  font-size: clamp(1.5rem, 3vw, 2.2rem);
 }
 
 .qr-download .qr-card {
@@ -287,12 +281,10 @@ a {
 }
 
 .qr-download .qr-card span {
-  color: var(--blue-dark);
-  font-size: 0.84rem;
-  font-weight: 800;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
   line-height: 1;
-  text-decoration: underline;
-  text-underline-offset: 2px;
 }
 
 .screens {
