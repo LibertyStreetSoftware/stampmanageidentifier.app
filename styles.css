@@ -254,8 +254,10 @@ a {
 
 .qr-download {
   display: grid;
-  justify-items: center;
-  gap: 12px;
+  grid-template-columns: auto minmax(280px, 420px);
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
   padding: 34px 28px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -285,6 +287,14 @@ a {
   font-size: 0.78rem;
   font-weight: 700;
   line-height: 1;
+}
+
+.qr-download-illustration {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 350 / 220;
+  object-fit: cover;
+  border-radius: var(--radius);
 }
 
 .screens {
@@ -525,6 +535,11 @@ a {
   .qr-download,
   .quote-band {
     grid-template-columns: 1fr;
+  }
+
+  .qr-download {
+    justify-items: center;
+    gap: 28px;
   }
 
   .phone-cluster {
